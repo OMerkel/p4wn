@@ -29,9 +29,10 @@ When you make a stupid move, you can undo it by clicking on the
 **undo** button. To jump back a long way, you can click on a move in
 the game log.
 
-The **pawn becomes ...** button switches between the various possible
-promotions for a pawn that reaches the end. If you want to change it,
-do so before you move the pawn.
+The **pawn becomes ...** button or **pawn promotes to ...** button
+switches between the various possible promotions for a pawn that
+reaches the end. If you want to change it, do so before you move
+the pawn.
 
 If a draw is technically possible (either through 3 repetitions of the
 same position, or 50 moves without a capture or pawn move) , a
@@ -94,7 +95,7 @@ Version 2
 
 In 2012 P4wn was rewritten for readability, correctness, and speed.
 The code in the ``src`` directory is version 2; that in ``5k`` is
-version 1.  Version 2 followed liberation from CVS into git.
+version 1. Version 2 followed liberation from CVS into git.
 
 Version 2.01 contains an interface fix for Internet Explorer.
 
@@ -117,7 +118,6 @@ See
 
 Differences between version 1 and 2
 -----------------------------------
-
 
 Although they look entirely different, there is a structural and
 algorithmic continuity between the versions.
@@ -465,7 +465,7 @@ state.jump_to_moveno(n)
 +++++++++++++++++++++++
 
 Rewind the game to an earlier move, wth ``n`` being the half-move
-number to jump to.  Examples::
+number to jump to. Examples::
 
  state.jump_to_moveno(0) /* jump to the beginning */
  state.jump_to_moveno(3) /* jump to black's second move */
@@ -635,7 +635,6 @@ debug
 For example,
 http://p4wn.sf.net/src/?start=8/8/8/8/8/4K3/5Q2/7k+w+-+-+11+56&player=black
 lands you in a pickle, playing black.
-
 
 Contributors and copyright
 ==========================
