@@ -143,8 +143,8 @@ read on.
 The default interface (``display.js``) is deliberately primitive, to
 encourage the development of replacements.
 
-Putting it in you own page, method 1
-------------------------------------
+Putting it in your own page, method 1
+-------------------------------------
 
 Copy the files ``engine.js``, ``display.js``, ``p4wn.css``, and the
 ``images`` directory into your html directory. Then add these lines to
@@ -168,8 +168,8 @@ where you want the board to be, and this::
 
 at the bottom (as seen in ``src/index.html``).
 
-Putting it in you own page, method 2
-------------------------------------
+Putting it in your own page, method 2
+-------------------------------------
 
 You might want the p4wn files somewhere else in your web tree, in
 which case you would do something like this (replacing ``p4wn/src``
@@ -191,8 +191,8 @@ with the correct path)::
   </body>
  </html>
 
-Putting it in you own page, method 3 (no local copy)
-----------------------------------------------------
+Putting it in your own page, method 3 (no local copy)
+-----------------------------------------------------
 
 Replacing every instance of ``p4wn/src`` in the above example with
 ``http://p4wn.sf.net/src`` ought to work. (Which is not to say
