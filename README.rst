@@ -1,12 +1,16 @@
 P4wn, a smallish javascript chess engine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-P4wn is both - an online web page and an offline HTML mobile and tablet
-application - that can play chess. It is quite small, plays well
-enough to be interesting, and is easy to embed in your pages. The
-default interface is easy to replace, and the engine is simple and
-tunable. P4wn is completely free, available under CC0_ or public
-domain terms. You can use it for anything you want.
+P4wn can play chess. It is quite small, plays well
+enough to be interesting, and is easy to
+
+* embed in your web pages,
+* install from an Android APK (full install and offline play),
+* install as a Firefox OS packaged application (full install and offline play, too).
+
+The default interface is easy to replace, and the engine is simple
+and tunable. P4wn is completely free, available under CC0_ or
+public domain terms.
 
 .. _CC0: http://creativecommons.org/publicdomain/zero/1.0/
 
@@ -139,8 +143,8 @@ improvements.
 Embedding and theming
 =====================
 
-*TL;DR:* look at ``src/index.html``. If you are trying something more
-complex than that, look also at ``src/fen-test.html``. Failing that,
+*TL;DR:* look at ``src/test/index.html``. If you are trying something more
+complex than that, look also at ``src/test/fen-test.html``. Failing that,
 read on.
 
 The default interface (``display.js``) is deliberately primitive, to
@@ -149,11 +153,11 @@ encourage the development of replacements.
 Putting it in your own page, method 1
 -------------------------------------
 
-Copy the files ``engine.js``, ``display.js``, ``p4wn.css``, and the
+Copy the ``js``, ``css``, and the
 ``images`` directory into your html directory. Then add these lines to
 your html::
 
-  <link rel="stylesheet" href="p4wn.css" />
+  <link rel="stylesheet" href="css/p4wn.css" />
 
 in the ``<head>``,
 ::
@@ -162,14 +166,14 @@ in the ``<head>``,
 
 where you want the board to be, and this::
 
- <script src="engine.js"></script>
- <script src="display.js"></script>
+ <script src="js/engine.js"></script>
+ <script src="js/display.js"></script>
  <script>
   var game = p4wnify("board-goes-here");
   game.next_move();
  </script>
 
-at the bottom (as seen in ``src/index.html``).
+at the bottom (as seen in ``src/test/index.html``).
 
 Putting it in your own page, method 2
 -------------------------------------
@@ -609,11 +613,11 @@ down to 5k.
 Tests
 =====
 
-A *few* tests are run automatically by ``src/auto-test.html``. The
-test harness in ``src/auto-test.js`` is primitive but reusable, topical,
+A *few* tests are run automatically by ``src/test/auto-test.html``. The
+test harness in ``src/test/auto-test.js`` is primitive but reusable, topical,
 and extensible.
 
-``src/fen-test.html`` doesn’t test anything on its own, but offers more
+``src/test/fen-test.html`` doesn’t test anything on its own, but offers more
 debugging options than ``index.html``.
 
 HTTP query string interpretation
