@@ -120,7 +120,7 @@ is required.
 
 See
 
-* https://github.com/OMerkel/Alquerque/releases/tag/release_2.03 ,
+* https://github.com/OMerkel/p4wn/releases/tag/release_2.03 ,
 * http://omerkel.github.io/p4wn/src/index.html ,
 * http://omerkel.github.io/p4wn/src/p4wn/index.html ,
 * http://omerkel.github.io/p4wn/src/p4wn2/index.html ,
