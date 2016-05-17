@@ -1,3 +1,5 @@
+.. image:: src/p4wn2/images/icons/p4wn2_64.png
+
 P4wn, a smallish javascript chess engine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
