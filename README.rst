@@ -10,7 +10,7 @@ enough to be interesting, and is easy to
 * install from an Android APK (full install and offline play),
 * install as a Firefox OS packaged application (full install and offline play, too).
 
-Latest release is https://github.com/OMerkel/Alquerque/releases/tag/release_2.03
+Latest release is https://github.com/OMerkel/p4wn/releases/tag/release_2.03
 
 The default interface is easy to replace, and the engine is simple
 and tunable. P4wn is completely free, available under CC0_ or
