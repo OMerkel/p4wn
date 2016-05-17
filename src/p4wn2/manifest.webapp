@@ -1,0 +1,23 @@
+{
+  "version": "2.03",
+  "name": "p4wn2",
+  "description": "p4wn2 - a smallish chess engine",
+  "launch_path": "/index.html",
+  "chrome": { "navigation": true },
+  "icons": {
+    "16": "/images/icons/p4wn2_16.png",
+    "32": "/images/icons/p4wn2_32.png",
+    "48": "/images/icons/p4wn2_48.png",
+    "60": "/images/icons/p4wn2_60.png",
+    "64": "/images/icons/p4wn2_64.png",
+    "90": "/images/icons/p4wn2_90.png",
+    "120": "/images/icons/p4wn2_120.png",
+    "128": "/images/icons/p4wn2_128.png",
+    "256": "/images/icons/p4wn2_256.png"
+  },
+  "developer": {
+    "name": "Oliver Merkel",
+    "url": "https://github.com/OMerkel/p4wn"
+  },
+  "installs_allowed_from": ["*"]
+}

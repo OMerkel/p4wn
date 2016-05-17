@@ -13,9 +13,11 @@ domain terms. You can use it for anything you want.
 How to play
 ===========
 
-If you load ``src/index.html`` (or http://p4wn.sf.net/src) in a modern
-javascript enabled browser, you should see a small chess board. You
-are playing white. To change that, click **swap**. You can swap sides
+If you load `src/index.html
+<http://omerkel.github.io/p4wn/src/index.html>`_ in a modern
+javascript enabled browser, you should see small chess board
+representations to select from. You are playing white.
+To change that, click **swap**. You can swap sides
 at any stage of the game.
 
 To move a piece, click on it and click again where you want it to be.
@@ -42,21 +44,8 @@ P4wn will never claim a draw on its own, just offer you the button.
 Where to find it and get help
 =============================
 
-There is a homepage at http://p4wn.sf.net and git repositories at
-http://p4wn.git.sourceforge.net/git/gitweb.cgi?p=p4wn/p4wn and
-https://github.com/douglasbagnall/p4wn. The two git repositories
-should be pretty similar. Most people seem to use the github one. Zip
-and tar files of version 2 can be found at
-http://sourceforge.net/projects/p4wn/files/.
-
-
-The git tree contains several files not included in the version 2 zip
-and tar files. These are mainly interesting for historical reasons, or
-for testing, and are unnecessary and potentially confusing if you just
-want to play chess. So they have been left out and instead you'll get
-confused when this document refers to them. You can get these files
-via git, or just look at them on the Github and Sourceforge links
-above.
+https://github.com/OMerkel/p4wn
+https://github.com/douglasbagnall/p4wn
 
 There is a mailing list at
 https://lists.sourceforge.net/lists/listinfo/p4wn-chess, and the issue
@@ -108,13 +97,27 @@ screen, too. An optimize to screen resolution feature is available
 now. It provides resolution awareness, e.g. on mobile devices if
 switching between portrait and landscape, etc. New SVG (Scalable
 Vector Graphics) chess set has been created from scratch under CC0_.
+
+Version 2.03 removes the offline.appcache. The feature suggestion has
+been revoked by W3C (Word Wide Web Consortium) and some browsers have a
+warning on the Javascript console:
+
+``The Application Cache API (AppCache) is deprecated and will be
+removed at a future date. Please consider using ServiceWorker
+for offline support.``
+
+As a new feature you can use an Android APK installer to even play
+P4wn or P4wn2 offline. Please, mind that minimum Android 4.4.2 (API-19)
+is required.
+
 See
 
-* http://omerkel.github.io/p4wn/src/index-mobile.html ,
-* http://omerkel.github.io/p4wn/src/index-mobile-1.html ,
-* http://omerkel.github.io/p4wn/src/index-mobile-2.html ,
-* https://marketplace.firefox.com/app/p4wn/ , and
-* https://marketplace.firefox.com/app/p4wn2/
+* https://github.com/OMerkel/Alquerque/releases/tag/release_2.03 ,
+* http://omerkel.github.io/p4wn/src/index.html ,
+* http://omerkel.github.io/p4wn/src/p4wn/index.html ,
+* http://omerkel.github.io/p4wn/src/p4wn2/index.html ,
+* https://marketplace.firefox.com/app/p4wn , and
+* https://marketplace.firefox.com/app/p4wn2
 
 Differences between version 1 and 2
 -----------------------------------
@@ -639,7 +642,7 @@ lands you in a pickle, playing black.
 Contributors and copyright
 ==========================
 
-These people (and probably others whose names I have mislaid) have
+These people (and probably others whose names are mislaid) have
 added something to p4wn:
 
 * Douglas Bagnall
