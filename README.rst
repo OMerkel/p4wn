@@ -1,7 +1,7 @@
 .. image:: src/p4wn2/images/icons/p4wn2_64.png
 
-P4wn, a smallish javascript chess engine
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+P4wn, a smallish chess engine
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 P4wn can play chess. It is quite small, plays well
 enough to be interesting, and is easy to
