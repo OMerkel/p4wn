@@ -14,7 +14,7 @@ How to play
 ===========
 
 If you load `src/index.html
-<http://omerkel.github.io/p4wn/src/index.html>`_ in a modern
+<http://omerkel.github.io/p4wn/src>`_ in a modern
 javascript enabled browser, you should see small chess board
 representations to select from. You are playing white.
 To change that, click **swap**. You can swap sides
@@ -44,8 +44,8 @@ P4wn will never claim a draw on its own, just offer you the button.
 Where to find it and get help
 =============================
 
-https://github.com/OMerkel/p4wn
-https://github.com/douglasbagnall/p4wn
+* https://github.com/OMerkel/p4wn
+* https://github.com/douglasbagnall/p4wn
 
 There is a mailing list at
 https://lists.sourceforge.net/lists/listinfo/p4wn-chess, and the issue
