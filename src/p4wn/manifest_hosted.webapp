@@ -2,18 +2,18 @@
   "version": "2.03",
   "name": "p4wn",
   "description": "p4wn - a smallish chess engine",
-  "launch_path": "/index.html",
+  "launch_path": "/p4wn/src/p4wn/index.html",
   "chrome": { "navigation": true },
   "icons": {
-    "16": "/p4wn/src/images/icons/p4wn_16.png",
-    "32": "/p4wn/src/images/icons/p4wn_32.png",
-    "48": "/p4wn/src/images/icons/p4wn_48.png",
-    "60": "/p4wn/src/images/icons/p4wn_60.png",
-    "64": "/p4wn/src/images/icons/p4wn_64.png",
-    "90": "/p4wn/src/images/icons/p4wn_90.png",
-    "120": "/p4wn/src/images/icons/p4wn_120.png",
-    "128": "/p4wn/src/images/icons/p4wn_128.png",
-    "256": "/p4wn/src/images/icons/p4wn_256.png"
+    "16": "/p4wn/src/p4wn/images/icons/p4wn_16.png",
+    "32": "/p4wn/src/p4wn/images/icons/p4wn_32.png",
+    "48": "/p4wn/src/p4wn/images/icons/p4wn_48.png",
+    "60": "/p4wn/src/p4wn/images/icons/p4wn_60.png",
+    "64": "/p4wn/src/p4wn/images/icons/p4wn_64.png",
+    "90": "/p4wn/src/p4wn/images/icons/p4wn_90.png",
+    "120": "/p4wn/src/p4wn/images/icons/p4wn_120.png",
+    "128": "/p4wn/src/p4wn/images/icons/p4wn_128.png",
+    "256": "/p4wn/src/p4wn/images/icons/p4wn_256.png"
   },
   "developer": {
     "name": "Oliver Merkel",
