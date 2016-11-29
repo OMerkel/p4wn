@@ -647,6 +647,17 @@ For example,
 http://p4wn.sf.net/src/?start=8/8/8/8/8/4K3/5Q2/7k+w+-+-+11+56&player=black
 lands you in a pickle, playing black.
 
+UCI support
+===========
+
+An UCI (universal chess interface) has been implemented as an interface for javascript chess engines like P4wn in a third party project.
+
+See
+* https://sourceforge.net/projects/jsuci/
+
+A wrapper for P4wn is provided as an example in there. A Google V8 Javascript compatible engine is required.
+UCI support allows that such a chess engine can be launched in other UCI chess graphical user interface.
+
 Contributors and copyright
 ==========================
 
